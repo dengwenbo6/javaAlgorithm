@@ -19,6 +19,7 @@ public class SolutionBM56 {
         if (num.length == 0) {
             return result;
         }
+        Arrays.sort(num);
         // 用于回溯算法
         Stack<Integer> st = new Stack<>();
         // 标识已经使用过的
